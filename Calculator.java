@@ -21,8 +21,8 @@ public class Calculator {
 
          char operator = getOperation();
          int result = calculation(firstNumber,secondNumber,operator);
-         System.out.println("Результат операции: "+result);
-         System.out.println("Хотите продолжить вычисления? - нажмите 1 и клавишу enter");
+         System.out.println("Calculation result: "+result);
+         System.out.println("Want to continue calculations? - press 1 and enter");
      }while(symbolInput.nextInt()==1);
 
     }
