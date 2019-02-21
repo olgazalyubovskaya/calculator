@@ -28,7 +28,7 @@ public class Calculator {
     }
 
 
-    //receiving of Arabic numbers from the user
+    //receiving of the Arabic numbers from the user
     public static int getArabicNumber() {
         int arabicNumber;
         System.out.println("Input your ArabicNumber: ");
@@ -42,7 +42,7 @@ public class Calculator {
         return arabicNumber;
     }
 
-    //receiving of Roman numbers from the user
+    //receiving of the Roman numbers from the user
     public static String getRomanNumber(){
         Scanner symbolInput = new Scanner(System.in);
         String romanNumber;
@@ -63,7 +63,7 @@ public class Calculator {
         return convertRomanNumber;
     }
 
-    //getting numbers to calculate
+    //getting the numbers to calculate
     public static int getNumber(){
         int number;
         if (typeOfNumber == 'a') {
@@ -74,7 +74,7 @@ public class Calculator {
         return number;
     }
 
-    //receiving of type number from the user
+    //receiving of the type number from the user
     public static char getTypeOfNumber(){
         System.out.println("If you want to work with Arabic numbers input - a, " +
                 "If you want to work with Roman numbers input - r: ");
@@ -102,7 +102,7 @@ public class Calculator {
         return typeOfNumber;
     }
 
-    //receiving of operator from the user
+    //receiving of the operator from the user
     public static char getOperation(){
 //        Scanner symbolInput = new Scanner(System.in);
         char operator;
