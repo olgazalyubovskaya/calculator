@@ -22,7 +22,7 @@ public class Calculator {
          char operator = getOperation();
          int result = calculation(firstNumber,secondNumber,operator);
          System.out.println("Calculation result: "+result);
-         System.out.println("Want to continue calculations? - press 1 and enter");
+         System.out.println("Do you want to continue the calculations? - press 1 and enter");
      }while(symbolInput.nextInt()==1);
 
     }
