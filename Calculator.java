@@ -7,7 +7,7 @@ public class Calculator {
     static char typeOfNumber;
 
     public static void main(String[] args) {
-        //calculator presentation
+        //the calculator presentation
         System.out.println("- The calculator can perform addition, subtraction, multiplication and division operations " +
                 "with two numbers: a + b, a - b, a * b, a / b\n" +
                 "- The calculator knows how to work with Arabic and Roman (from I to X) numbers. \n" +
